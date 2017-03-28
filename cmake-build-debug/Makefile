@@ -123,6 +123,114 @@ Prog2_CWK3/fast:
 	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/build
 .PHONY : Prog2_CWK3/fast
 
+Movie.o: Movie.cpp.o
+
+.PHONY : Movie.o
+
+# target to build an object file
+Movie.cpp.o:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o
+.PHONY : Movie.cpp.o
+
+Movie.i: Movie.cpp.i
+
+.PHONY : Movie.i
+
+# target to preprocess a source file
+Movie.cpp.i:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Movie.cpp.i
+.PHONY : Movie.cpp.i
+
+Movie.s: Movie.cpp.s
+
+.PHONY : Movie.s
+
+# target to generate assembly for a file
+Movie.cpp.s:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Movie.cpp.s
+.PHONY : Movie.cpp.s
+
+MovieDatabase.o: MovieDatabase.cpp.o
+
+.PHONY : MovieDatabase.o
+
+# target to build an object file
+MovieDatabase.cpp.o:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o
+.PHONY : MovieDatabase.cpp.o
+
+MovieDatabase.i: MovieDatabase.cpp.i
+
+.PHONY : MovieDatabase.i
+
+# target to preprocess a source file
+MovieDatabase.cpp.i:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.i
+.PHONY : MovieDatabase.cpp.i
+
+MovieDatabase.s: MovieDatabase.cpp.s
+
+.PHONY : MovieDatabase.s
+
+# target to generate assembly for a file
+MovieDatabase.cpp.s:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.s
+.PHONY : MovieDatabase.cpp.s
+
+Rating.o: Rating.cpp.o
+
+.PHONY : Rating.o
+
+# target to build an object file
+Rating.cpp.o:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o
+.PHONY : Rating.cpp.o
+
+Rating.i: Rating.cpp.i
+
+.PHONY : Rating.i
+
+# target to preprocess a source file
+Rating.cpp.i:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Rating.cpp.i
+.PHONY : Rating.cpp.i
+
+Rating.s: Rating.cpp.s
+
+.PHONY : Rating.s
+
+# target to generate assembly for a file
+Rating.cpp.s:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Rating.cpp.s
+.PHONY : Rating.cpp.s
+
+TimeStamp.o: TimeStamp.cpp.o
+
+.PHONY : TimeStamp.o
+
+# target to build an object file
+TimeStamp.cpp.o:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o
+.PHONY : TimeStamp.cpp.o
+
+TimeStamp.i: TimeStamp.cpp.i
+
+.PHONY : TimeStamp.i
+
+# target to preprocess a source file
+TimeStamp.cpp.i:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.i
+.PHONY : TimeStamp.cpp.i
+
+TimeStamp.s: TimeStamp.cpp.s
+
+.PHONY : TimeStamp.s
+
+# target to generate assembly for a file
+TimeStamp.cpp.s:
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.s
+.PHONY : TimeStamp.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Prog2_CWK3"
+	@echo "... Movie.o"
+	@echo "... Movie.i"
+	@echo "... Movie.s"
+	@echo "... MovieDatabase.o"
+	@echo "... MovieDatabase.i"
+	@echo "... MovieDatabase.s"
+	@echo "... Rating.o"
+	@echo "... Rating.i"
+	@echo "... Rating.s"
+	@echo "... TimeStamp.o"
+	@echo "... TimeStamp.i"
+	@echo "... TimeStamp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

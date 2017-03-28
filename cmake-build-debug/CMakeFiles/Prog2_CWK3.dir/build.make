@@ -81,17 +81,121 @@ CMakeFiles/Prog2_CWK3.dir/main.cpp.o.provides: CMakeFiles/Prog2_CWK3.dir/main.cp
 CMakeFiles/Prog2_CWK3.dir/main.cpp.o.provides.build: CMakeFiles/Prog2_CWK3.dir/main.cpp.o
 
 
+CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o: CMakeFiles/Prog2_CWK3.dir/flags.make
+CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o: ../Movie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o -c "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.cpp"
+
+CMakeFiles/Prog2_CWK3.dir/Movie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Prog2_CWK3.dir/Movie.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.cpp" > CMakeFiles/Prog2_CWK3.dir/Movie.cpp.i
+
+CMakeFiles/Prog2_CWK3.dir/Movie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Prog2_CWK3.dir/Movie.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.cpp" -o CMakeFiles/Prog2_CWK3.dir/Movie.cpp.s
+
+CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.requires:
+
+.PHONY : CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.requires
+
+CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.provides: CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.provides.build
+.PHONY : CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.provides
+
+CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.provides.build: CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o
+
+
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o: CMakeFiles/Prog2_CWK3.dir/flags.make
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o: ../MovieDatabase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o -c "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.cpp"
+
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.cpp" > CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.i
+
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.cpp" -o CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.s
+
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.requires:
+
+.PHONY : CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.requires
+
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.provides: CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.provides.build
+.PHONY : CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.provides
+
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.provides.build: CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o
+
+
+CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o: CMakeFiles/Prog2_CWK3.dir/flags.make
+CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o: ../TimeStamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o -c "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.cpp"
+
+CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.cpp" > CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.i
+
+CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.cpp" -o CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.s
+
+CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.requires:
+
+.PHONY : CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.requires
+
+CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.provides: CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.provides.build
+.PHONY : CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.provides
+
+CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.provides.build: CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o
+
+
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o: CMakeFiles/Prog2_CWK3.dir/flags.make
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o: ../Rating.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o -c "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.cpp"
+
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Prog2_CWK3.dir/Rating.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.cpp" > CMakeFiles/Prog2_CWK3.dir/Rating.cpp.i
+
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Prog2_CWK3.dir/Rating.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.cpp" -o CMakeFiles/Prog2_CWK3.dir/Rating.cpp.s
+
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.requires:
+
+.PHONY : CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.requires
+
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.provides: CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Prog2_CWK3.dir/build.make CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.provides.build
+.PHONY : CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.provides
+
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.provides.build: CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o
+
+
 # Object files for target Prog2_CWK3
 Prog2_CWK3_OBJECTS = \
-"CMakeFiles/Prog2_CWK3.dir/main.cpp.o"
+"CMakeFiles/Prog2_CWK3.dir/main.cpp.o" \
+"CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o" \
+"CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o" \
+"CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o" \
+"CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o"
 
 # External object files for target Prog2_CWK3
 Prog2_CWK3_EXTERNAL_OBJECTS =
 
 Prog2_CWK3.exe: CMakeFiles/Prog2_CWK3.dir/main.cpp.o
+Prog2_CWK3.exe: CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o
+Prog2_CWK3.exe: CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o
+Prog2_CWK3.exe: CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o
+Prog2_CWK3.exe: CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o
 Prog2_CWK3.exe: CMakeFiles/Prog2_CWK3.dir/build.make
 Prog2_CWK3.exe: CMakeFiles/Prog2_CWK3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Prog2_CWK3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Prog2_CWK3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Prog2_CWK3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +204,10 @@ CMakeFiles/Prog2_CWK3.dir/build: Prog2_CWK3.exe
 .PHONY : CMakeFiles/Prog2_CWK3.dir/build
 
 CMakeFiles/Prog2_CWK3.dir/requires: CMakeFiles/Prog2_CWK3.dir/main.cpp.o.requires
+CMakeFiles/Prog2_CWK3.dir/requires: CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o.requires
+CMakeFiles/Prog2_CWK3.dir/requires: CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o.requires
+CMakeFiles/Prog2_CWK3.dir/requires: CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o.requires
+CMakeFiles/Prog2_CWK3.dir/requires: CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o.requires
 
 .PHONY : CMakeFiles/Prog2_CWK3.dir/requires
 

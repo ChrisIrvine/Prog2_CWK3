@@ -80,6 +80,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.cpp">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.cpp">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.h">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.cpp">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.h">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.cpp">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.h">
+			<Option target="Prog2_CWK3"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/main.cpp">
 			<Option target="Prog2_CWK3"/>
 		</Unit>
