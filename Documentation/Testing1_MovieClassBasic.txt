@@ -1,3 +1,5 @@
+-----------------------------------movie.h-------------------------------------
+
 /**
  * File:        movie.h
  *
@@ -143,3 +145,119 @@ namespace movie
 }
 
 #endif //PROG2_CWK3_MOVIE_H
+
+
+------------------------------------movie.cpp----------------------------------
+
+/**
+ * File:        Movie.cpp
+ *
+ * Author:      ruw12gbu, 100036248
+ *
+ * Description: Source code of the movie class declared in Movie.h create movie
+ *              objects that are generated from the movies.txt file; containing
+ *              details such as the title, year, rating-certificate, genre and
+ *              runtime (in minutes). movies.txt is passed in through main.cpp
+ *              before it is broken down and separated into individual movie
+ *              objects. At this stage there is no file input, I am just
+ *              testing the methods before I get to that stage.
+ *
+ * Version:     v1.0 - 29/03/2017 - created.
+ *              v2.0 - 30/03/2017 - edited to be stack compatible
+ */
+#include "Movie.h"
+
+namespace movie {
+
+    //Initialise the customisable constructor method
+    Movie::Movie(const std::string &newTitle, const unsigned int newYear,
+                 const std::string newCert, const std::string &newGenre,
+                 const unsigned int newRuntime) {
+        //Assign variable values to the object variables
+        this->title = newTitle;
+        this->year = newYear;
+        this->certificate = newCert;
+        this->genre = newGenre;
+        this->runtime = newRuntime;
+    }
+
+    //Initialise the copy constructor method
+    Movie::Movie(const Movie &copyMovie){
+        //Copy over the variables
+        this->title = copyMovie.getTitle();
+        this->year = copyMovie.getYear();
+        this->certificate = copyMovie.getCert();
+        this->genre = copyMovie.getGenre();
+        this->runtime = copyMovie.getRuntime();
+    }
+
+    //Destructor, doesn't need to do anything as stack not heap
+    Movie::~Movie() {   }
+
+    //Initialise the write() method, acts like a toString() stringbuilder
+    //method from java
+    std::ostream &Movie::write(std::ostream &stream) const {
+        stream << "\"" << this->title<< "\","
+               << this->year << ","
+               << "\"" << this->certificate << "\","
+               << "\"" << this->genre << "\","
+               << this->runtime << ",0,0";
+
+        return stream;
+    }
+}
+
+---------------------------------main.cpp--------------------------------------
+
+/**
+ * File:        main.cpp
+ *
+ * Author:      ruw12gbu, 100036248
+ *
+ * Description: Test Driver for the Movie.cpp and Movie.h files. At this stage
+ *              the expected output is...
+ *          "Lord of the Rings",2005,"PG-13","Action/Adventure/Fantasy",140,0,0
+ *          "Lord of the Rings",2005,"PG-13","Action/Adventure/Fantasy",140,0,0
+ *          "Rogue One",2016,"PG-13","Science Fiction/Action/Adventure",134,0,0
+ *
+ * Version:     v1.0 - 30/03/2017 - created
+ */
+#include <iostream>
+#include "Movie.h"
+
+using namespace movie;
+
+int main() {
+
+    //Initialise test variables
+    std:: string testTitle("Rogue One");
+    unsigned int testYear = 2016;
+    std:: string testCert("PG-13");
+    std:: string testGenre("Science Fiction/Action/Adventure");
+    unsigned int testRuntime = 135;
+
+    //Test Default constructor
+    Movie lotr("Lord of the Rings", 2005, "PG-13", "Action/Adventure/Fantasy",
+               140);
+    std::cout << lotr << std::endl;
+
+    //Test copy constructor
+    Movie copyCat(lotr);
+    std::cout << copyCat << std::endl;
+
+    //Test customisable constructor
+    Movie rogue(testTitle, testYear, testCert, testGenre, testRuntime);
+    std::cout << rogue << std::endl;
+
+    return 0;
+}
+
+----------------------------------OUTPUT---------------------------------------
+
+"C:\Users\Christopher Irvine\Documents\Programming\Prog2_CWK3\cmake-build-debug
+\Prog2_CWK3.exe"
+"Lord of the Rings",2005,"PG-13","Action/Adventure/Fantasy",140,0,0
+"Lord of the Rings",2005,"PG-13","Action/Adventure/Fantasy",140,0,0
+"Rogue One",2016,"PG-13","Science Fiction/Action/Adventure",135,0,0
+
+Process finished with exit code 0
