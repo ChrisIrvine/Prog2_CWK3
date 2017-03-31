@@ -4,6 +4,7 @@
 CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o: ../Movie.cpp
 CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o: ../Movie.h
 
+CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o: ../Movie.h
 CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o: ../MovieDatabase.cpp
 CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o: ../MovieDatabase.h
 
@@ -14,5 +15,6 @@ CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o: ../TimeStamp.cpp
 CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o: ../TimeStamp.h
 
 CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../Movie.h
+CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../MovieDatabase.h
 CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../main.cpp
 

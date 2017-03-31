@@ -7,7 +7,8 @@
  *              used in the movie.cpp file.
  *
  * Version:     v1.0 - 29/03/2017 - created
- *              v1.0 - 30/03/2017 - edited to be stack compatible
+ *              v2.0 - 30/03/2017 - edited to be stack compatible
+ *              v2.1 - 31/03/2017 - implemented input overloading
  */
 
 #ifndef PROG2_CWK3_MOVIE_H
@@ -16,9 +17,9 @@
 #include <string>
 #include <sstream>
 #include <iostream>
+#include <vector>
 
-namespace movie
-{
+namespace movie {
     class Movie {
     public:
         /**
@@ -48,6 +49,12 @@ namespace movie
         }
         inline const unsigned int& getRuntime() const {return this->runtime;}
 
+        //Declare nonsense getters and setters
+        inline void setN1( unsigned int &newN1) {this->nonsense1 = newN1;}
+        inline void setN2( unsigned int &newN2) {this->nonsense2 = newN2;}
+        inline const unsigned int& getN1() const {return this->nonsense1;}
+        inline const unsigned int& getN2() const {return this->nonsense2;}
+
         /**
          * Procedure:   Movie (customisable)
          *
@@ -68,7 +75,8 @@ namespace movie
          */
         Movie(const std::string &newTitle, const unsigned int newYear,
               const std::string newCert, const std::string &newGenre,
-              const unsigned int newRuntime);
+              const unsigned int newRuntime, const unsigned int newN1,
+              const unsigned int newN2);
 
         /**
          * Procedure:   Movie (copy)
@@ -119,6 +127,8 @@ namespace movie
         std:: string certificate;
         std:: string genre;
         unsigned int runtime;
+        unsigned int nonsense1;
+        unsigned int nonsense2;
     };
 
     /**
@@ -139,7 +149,51 @@ namespace movie
         return movie.write(stream);
     }
 
-    std::istream& operator>> (std::istream& stream, const Movie& movie);
+    std::istream& operator>> (std::istream& stream, vector<Movie> mvdb) {
+        //Variables to pass into the new movie object
+        std::string holder, newTitle, newCert, newGenre;
+        unsigned int newYear, newRuntime, newN1, newN2;
+
+        while(stream.get()) {
+            //Skip first character
+            stream.get();
+            //Get title
+            getline(stream, newTitle, '"');
+            //Skip next character
+            stream.get();
+            //Get the year
+            stream >> newYear;
+            //Skip over the next two characters
+            stream.get();
+            stream.get();
+            //Get the certificate
+            getline(stream, newCert, '"');
+            //Skip over next character
+            stream.get();
+            //Get the genres
+            getline(stream, newGenre, '"');
+            //Skip next character
+            stream.get();
+            //Get the runtime
+            stream >> newRuntime;
+            //Skip the next character
+            stream.get();
+            //Get the first 0
+            stream >> newN1;
+            //Skip the next character
+            stream.get();
+            //Get the last 0
+            stream >> newN2;
+
+            movie::Movie newMovie(newTitle, newYear, newCert, newGenre
+                    , newRuntime, newN1, newN2);
+
+            mvdb.push_back(newMovie);
+        }
+
+        //Return the new movie object inside a stream(?)
+        return stream;
+    };
 }
 
 #endif //PROG2_CWK3_MOVIE_H

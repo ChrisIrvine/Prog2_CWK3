@@ -13,21 +13,24 @@
  *
  * Version:     v1.0 - 29/03/2017 - created.
  *              v2.0 - 30/03/2017 - edited to be stack compatible
+ *              v2.1 - 31/03/2017 - implemented input overloading
  */
 #include "Movie.h"
 
 namespace movie {
-
     //Initialise the customisable constructor method
     Movie::Movie(const std::string &newTitle, const unsigned int newYear,
                  const std::string newCert, const std::string &newGenre,
-                 const unsigned int newRuntime) {
+                 const unsigned int newRuntime, const unsigned int newN1,
+                 const unsigned int newN2) {
         //Assign variable values to the object variables
         this->title = newTitle;
         this->year = newYear;
         this->certificate = newCert;
         this->genre = newGenre;
         this->runtime = newRuntime;
+        this->nonsense1 = newN1;
+        this->nonsense2 = newN2;
     }
 
     //Initialise the copy constructor method
@@ -38,6 +41,8 @@ namespace movie {
         this->certificate = copyMovie.getCert();
         this->genre = copyMovie.getGenre();
         this->runtime = copyMovie.getRuntime();
+        this->nonsense1 = copyMovie.getN1();
+        this->nonsense2 = copyMovie.getN2();
     }
 
     //Destructor, doesn't need to do anything as stack not heap
@@ -50,7 +55,9 @@ namespace movie {
                << this->year << ","
                << "\"" << this->certificate << "\","
                << "\"" << this->genre << "\","
-               << this->runtime << ",0,0";
+               << this->runtime << ","
+               << this->nonsense1 << ","
+               << this->nonsense2;
 
         return stream;
     }

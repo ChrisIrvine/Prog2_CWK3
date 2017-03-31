@@ -17,12 +17,32 @@ sstream
 -
 iostream
 -
+vector
+-
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.cpp
+string
+-
+vector
+-
+fstream
+-
+iterator
+-
+sstream
+-
+iostream
+-
 MovieDatabase.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.h
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.h
+string
+-
+vector
+-
+Movie.h
+/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.cpp
 Rating.h
@@ -37,8 +57,6 @@ TimeStamp.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.h
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/main.cpp
-iostream
--
-Movie.h
-/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h
+MovieDatabase.h
+/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.h
 
