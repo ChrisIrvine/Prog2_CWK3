@@ -12,14 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="701da175-ab9b-4758-aa21-dfb79b090ef7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Prog2_CWK3.dir/Movie.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Prog2_CWK3.dir/main.cpp.o" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Movie.cpp" afterPath="$PROJECT_DIR$/Movie.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Movie.h" afterPath="$PROJECT_DIR$/Movie.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovieDatabase.cpp" afterPath="$PROJECT_DIR$/MovieDatabase.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MovieDatabase.h" afterPath="$PROJECT_DIR$/MovieDatabase.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movie.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Movie.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Movie.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1369">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="768">
+              <caret line="16" column="74" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -70,13 +64,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movie.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Movie.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Movie.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9264">
-              <caret line="193" column="42" lean-forward="true" selection-start-line="193" selection-start-column="42" selection-end-line="193" selection-end-column="42" />
+            <state relative-caret-position="-6192">
+              <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
               <folding>
-                <element signature="e#433#450#0" expanded="true" />
+                <element signature="e#510#527#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,9 +140,9 @@
         <option value="$USER_HOME$/Downloads/student.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/MovieDatabase.h" />
-        <option value="$PROJECT_DIR$/Movie.cpp" />
         <option value="$PROJECT_DIR$/MovieDatabase.cpp" />
         <option value="$PROJECT_DIR$/Movie.h" />
+        <option value="$PROJECT_DIR$/Movie.cpp" />
       </list>
     </option>
   </component>
@@ -393,12 +387,12 @@
       <updated>1490731025691</updated>
       <workItem from="1490731027377" duration="490000" />
       <workItem from="1490784130818" duration="16527000" />
-      <workItem from="1490870418069" duration="35936000" />
+      <workItem from="1490870418069" duration="37250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52953000" />
+    <option name="totallyTimeSpent" value="54267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,7 +404,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2092" extended-state="7" />
+    <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2571275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -490,7 +484,7 @@
         <state relative-caret-position="720">
           <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
-            <element signature="e#433#450#0" expanded="true" />
+            <element signature="e#510#527#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -558,7 +552,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#433#450#0" expanded="true" />
+            <element signature="e#510#527#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -691,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movie.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1369">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MovieDatabase.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -711,11 +697,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Movie.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9264">
-          <caret line="193" column="42" lean-forward="true" selection-start-line="193" selection-start-column="42" selection-end-line="193" selection-end-column="42" />
+        <state relative-caret-position="-6192">
+          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
           <folding>
-            <element signature="e#433#450#0" expanded="true" />
+            <element signature="e#510#527#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="16" column="74" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>

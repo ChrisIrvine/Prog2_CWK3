@@ -14,6 +14,7 @@
  * Version:     v1.0 - 29/03/2017 - created.
  *              v2.0 - 30/03/2017 - edited to be stack compatible
  *              v2.1 - 31/03/2017 - implemented input overloading
+ *              v2.2 - 31/03/2017 - adapted output overload for efficiency
  */
 #include "Movie.h"
 
@@ -47,18 +48,4 @@ namespace movie {
 
     //Destructor, doesn't need to do anything as stack not heap
     Movie::~Movie() {   }
-
-    //Initialise the write() method, acts like a toString() stringbuilder
-    //method from java
-    std::ostream &Movie::write(std::ostream &stream) const {
-        stream << "\"" << this->title<< "\","
-               << this->year << ","
-               << "\"" << this->certificate << "\","
-               << "\"" << this->genre << "\","
-               << this->runtime << ","
-               << this->nonsense1 << ","
-               << this->nonsense2;
-
-        return stream;
-    }
 }

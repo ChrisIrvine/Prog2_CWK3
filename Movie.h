@@ -9,6 +9,7 @@
  * Version:     v1.0 - 29/03/2017 - created
  *              v2.0 - 30/03/2017 - edited to be stack compatible
  *              v2.1 - 31/03/2017 - implemented input overloading
+ *              v2.2 - 31/03/2017 - adapted output overloader for efficiency
  */
 
 #ifndef PROG2_CWK3_MOVIE_H
@@ -146,7 +147,15 @@ namespace movie {
      */
     inline std::ostream& operator<< (std::ostream &stream
             , const Movie& movie) {
-        return movie.write(stream);
+        stream << "\"" << movie.title<< "\","
+               << movie.year << ","
+               << "\"" << movie.certificate << "\","
+               << "\"" << movie.genre << "\","
+               << movie.runtime << ","
+               << movie.nonsense1 << ","
+               << movie.nonsense1;
+
+        return stream;
     }
 
     std::istream& operator>> (std::istream& stream, vector<Movie> mvdb) {
