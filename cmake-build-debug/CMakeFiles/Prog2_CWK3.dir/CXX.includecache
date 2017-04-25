@@ -9,6 +9,12 @@
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.cpp
 Movie.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h
+iostream
+-
+string
+-
+sstream
+-
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h
 string
@@ -21,25 +27,23 @@ vector
 -
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.cpp
-string
--
-vector
+iostream
 -
 fstream
 -
-iterator
--
-sstream
--
-iostream
--
+Movie.h
+/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h
 MovieDatabase.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.h
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.h
-string
--
 vector
+-
+iostream
+-
+algorithm
+-
+functional
 -
 Movie.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h
@@ -47,16 +51,68 @@ Movie.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.cpp
 Rating.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.h
+cctype
+-
+fstream
+-
+string
+-
+iostream
+-
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.h
+algorithm
+-
+iostream
+-
+functional
+-
+vector
+-
+string
+-
+TimeStamp.h
+/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.h
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.cpp
+cstdint
+-
+iostream
+-
+iomanip
+-
+sstream
+-
 TimeStamp.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.h
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.h
+cstdint
+-
+iostream
+-
+string
+-
+iomanip
+-
 
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/main.cpp
+iostream
+-
+string
+-
+cstdlib
+-
+vector
+-
+sstream
+-
+TimeStamp.h
+/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/TimeStamp.h
 MovieDatabase.h
 /cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/MovieDatabase.h
+Rating.h
+/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Rating.h
+Movie.h
+/cygdrive/c/Users/Christopher Irvine/Documents/Programming/Prog2_CWK3/Movie.h
 

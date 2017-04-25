@@ -10,11 +10,14 @@ CMakeFiles/Prog2_CWK3.dir/MovieDatabase.cpp.o: ../MovieDatabase.h
 
 CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o: ../Rating.cpp
 CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o: ../Rating.h
+CMakeFiles/Prog2_CWK3.dir/Rating.cpp.o: ../TimeStamp.h
 
 CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o: ../TimeStamp.cpp
 CMakeFiles/Prog2_CWK3.dir/TimeStamp.cpp.o: ../TimeStamp.h
 
 CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../Movie.h
 CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../MovieDatabase.h
+CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../Rating.h
+CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../TimeStamp.h
 CMakeFiles/Prog2_CWK3.dir/main.cpp.o: ../main.cpp
 
