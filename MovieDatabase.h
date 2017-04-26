@@ -1,6 +1,18 @@
-//
-// Created by Christopher Irvine on 28/03/2017.
-//
+/**
+ * File:        MovieDatabase.h
+ *
+ * Author:      ruw12gbu, 10036248
+ *
+ * Description: Header file for MovieDatabase.cpp, containing the inline
+ *              methods for the MovieDatabase class as well as the navigatory
+ *              methods for the database itself (find and sort methods namely).
+ *
+ * Version:     v1.0 - created
+ *              v2.0 - added the navigatory methods
+ *              v3.0 - overloaded the output operator
+ *              v3.1 - added the second sort() method
+ *              v3.2 - polished and commented.
+ */
 
 #ifndef PROG2_CWK3_MOVIEDATABASE_H
 #define PROG2_CWK3_MOVIEDATABASE_H
@@ -24,8 +36,7 @@ namespace movieDatabase {
          *
          * Parameters:  N/A
          */
-        inline MovieDatabase() {
-        }
+        inline MovieDatabase() { }
 
         /**
          * Procedure:   MovieDatabase(const MovieDatabase &copyDB)
@@ -74,7 +85,14 @@ namespace movieDatabase {
         }
 
         /**
-         * Method to retrieve the size of the MovieDatabase
+         * Procedure:   size()
+         *
+         * Description: Returns the current size of the MovieDatabase Vector,
+         *              the data structure.
+         *
+         * Returns:     current size of the database
+         *
+         * Parameters:  N/A
          * @return - an unsigned long int representing the size of the DB.
          */
         inline unsigned long size() {
@@ -94,7 +112,7 @@ namespace movieDatabase {
          * Parameters:
          * @param movie - Movie object to be added
          */
-        inline void add (movie::Movie& movie) {
+        inline void add(movie::Movie& movie) {
             mvdb.push_back(movie::Movie(movie));
         }
 
@@ -162,7 +180,6 @@ namespace movieDatabase {
         inline MovieDatabase find(std::function<bool(movie::Movie&)
             > mustAdd) {
             MovieDatabase newDB;
-
             for(std::vector<movie::Movie>::iterator i = mvdb.begin();
                 i != mvdb.end();
                 ++i) {
@@ -173,20 +190,44 @@ namespace movieDatabase {
 
 
         /**
+         * Procedure:   operator<<(std::ostream& ostream, MovieDatabase& mvdb)
          *
-         * @param ostream
-         * @param mvdb
-         * @return
+         * Description: Uses a for loop to iterate through the vector (using
+         *              .size()) and then uses the output operator overloading
+         *              that is detailed in the Movie.h and Movie.cpp files to
+         *              create a string representation of each Movie object in
+         *              turn and stores the strings in an output stream
+         *
+         * Returns:     The entire Movie Database as it is formatted in the
+         *              "movies.txt" file held within an output stream.
+         *
+         * Parameters:
+         * @param ostream - output stream
+         * @param mvdb - MovieDatabase to print out
+         * @return - stream contiaing ready-to-print representation of the
+         *           MovieDatabase object.
          */
         friend std::ostream& operator<<(std::ostream& ostream
                 , MovieDatabase& mvdb);
 
-        MovieDatabase readFile();
 
     private:
-        std:: vector<movie::Movie> mvdb;
+        std::vector<movie::Movie> mvdb;
     };
 
+    /**
+     * Procedure:   readFile()
+     *
+     * Description: First, the method opens the "movies.txt" file and prepares
+     *              to scrape the data from the file - line by line - using
+     *              operator overloading that is native to the object held
+     *              within the database.
+     *
+     * Returns:     Filled Database
+     *
+     * Parameters:  N/A
+     * @return
+     */
+    MovieDatabase readFile();
 }
-
 #endif //PROG2_CWK3_MOVIEDATABASE_H

@@ -1,0 +1,279 @@
+The Movies contained within the MovieDatabase in order of release data:
+"The Kid",1921,"NOT RATED","Comedy/Drama/Family",68,4.81818,88
+"The Gold Rush",1925,"NOT RATED","Adventure/Comedy/Drama",95,5.73196,97
+"The General",1926,"UNRATED","Action/Adventure/Comedy",67,5.45977,87
+"Metropolis",1927,"NOT RATED","Drama/Sci-Fi",153,5.53333,90
+"Sunrise",1927,"NOT RATED","Drama/Romance",94,5.77895,95
+"The Passion of Joan of Arc",1928,"NOT RATED","Biography/Drama/History",114,5.17442,86
+"City Lights",1931,"PASSED","Comedy/Drama/Romance",87,5.58889,90
+"M",1931,"NOT RATED","Crime/Drama/Mystery",99,5.85393,89
+"It Happened One Night",1934,"UNRATED","Comedy/Romance",105,5.56566,99
+"Modern Times",1936,"G","Comedy/Drama/Family",87,5.97938,97
+"Gone with the Wind",1939,"G","Drama/History/Romance",238,5.43529,85
+"Mr. Smith Goes to Washington",1939,"NOT RATED","Comedy/Drama",129,5.77419,93
+"Rebecca",1940,"NOT RATED","Drama/Film-Noir/Mystery",130,4.93617,94
+"The Grapes of Wrath",1940,"NOT RATED","Drama/History",129,5.20619,97
+"The Great Dictator",1940,"APPROVED","Comedy/Drama/War",125,5.08696,92
+"Citizen Kane",1941,"APPROVED","Drama/Mystery",119,5.44318,88
+"The Maltese Falcon",1941,"NOT RATED","Film-Noir/Mystery",100,5.61905,84
+"Casablanca",1942,"PG","Drama/Romance/War",102,5.31034,87
+"Double Indemnity",1944,"PASSED","Crime/Drama/Film-Noir",107,6.2268,97
+"It's a Wonderful Life",1946,"PG","Drama/Family/Fantasy",130,5.81319,91
+"The Best Years of Our Lives",1946,"NOT RATED","Drama/Romance/War",172,5.01136,88
+"Bicycle Thieves",1948,"NOT RATED","Drama",89,5.90426,94
+"The Treasure of the Sierra Madre",1948,"NOT RATED","Adventure/Drama/Western",126,5.46835,79
+"Kind Hearts and Coronets",1949,"NOT RATED","Comedy/Crime",106,4.98095,105
+"The Third Man",1949,"NOT RATED","Film-Noir/Mystery/Thriller",93,5.80851,94
+"All About Eve",1950,"APPROVED","Drama",138,5.77273,88
+"Rashomon",1950,"UNRATED","Crime/Drama/Mystery",88,5.44086,93
+"Sunset Boulevard",1950,"NOT RATED","Drama/Film-Noir/Romance",110,5.61905,84
+"Strangers on a Train",1951,"PG","Crime/Film-Noir/Romance",101,5.73913,92
+"Ikiru",1952,"NOT RATED","Drama",143,5.76344,93
+"Singin' in the Rain",1952,"APPROVED","Comedy/Music/Musical/Romance",103,5.83516,91
+"Roman Holiday",1953,"NOT RATED","Comedy/Romance",118,5.7,90
+"The Wages of Fear",1953,"NOT RATED","Adventure/Drama/Thriller",131,5.30108,93
+"Tokyo Story",1953,"NOT RATED","Drama",136,4.8022,91
+"Dial M for Murder",1954,"PG","Crime/Film-Noir/Romance",105,5.7191,89
+"On the Waterfront",1954,"NOT RATED","Crime/Drama/Romance",108,5.20202,99
+"Rear Window",1954,"APPROVED","Mystery/Thriller",112,5.87097,93
+"Seven Samurai",1954,"UNRATED","Action/Adventure/Drama",207,5.84043,94
+"Diabolique",1955,"UNRATED","Drama/Horror/Mystery",116,5.26596,94
+"12 Angry Men",1957,"APPROVED","Crime/Drama",96,5.44681,94
+"Nights of Cabiria",1957,"NOT RATED","Drama",110,5.95789,95
+"Paths of Glory",1957,"APPROVED","Drama/War",88,5.3375,80
+"The Bridge on the River Kwai",1957,"PG","Adventure/Drama/War",161,5.76842,95
+"The Seventh Seal",1957,"NOT RATED","Drama/Fantasy",96,5.16832,101
+"Throne of Blood",1957,"UNRATED","Drama",110,5.13684,95
+"Wild Strawberries",1957,"UNRATED","Drama/Romance",91,5.15385,91
+"Witness for the Prosecution",1957,"APPROVED","Crime/Drama/Mystery",116,5.26374,91
+"Touch of Evil",1958,"PG-13","Crime/Drama/Film-Noir",95,5.18681,91
+"Vertigo",1958,"PG","Mystery/Romance/Thriller",128,5.10753,93
+"Ben-Hur",1959,"G","Adventure/Drama/History",212,5.21277,94
+"North by Northwest",1959,"APPROVED","Action/Adventure/Crime",136,6.09677,93
+"Some Like It Hot",1959,"NOT RATED","Comedy/Romance",120,5.61616,99
+"The 400 Blows",1959,"NOT RATED","Crime/Drama",99,5.61053,95
+"Psycho",1960,"R","Horror/Mystery/Thriller",109,5.43,100
+"The Apartment",1960,"APPROVED","Comedy/Drama/Romance",125,5.45652,92
+"Judgment at Nuremberg",1961,"NOT RATED","Drama/War",186,5.29787,94
+"Yojimbo",1961,"UNRATED","Action/Drama/Thriller",110,5.57576,99
+"Lawrence of Arabia",1962,"PG","Adventure/Biography/Drama",216,6.24706,85
+"To Kill a Mockingbird",1962,"NOT RATED","Crime/Drama",129,5.5,88
+"The Great Escape",1963,"APPROVED","Adventure/Drama/History",172,5.52273,88
+"A Fistful of Dollars",1964,"R","Action/Drama/Western",99,5.7619,84
+"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",1964,"PG","Comedy",95,5.13095,84
+"For a Few Dollars More",1965,"APPROVED","Western",132,4.83673,98
+"Persona",1966,"NOT RATED","Drama/Thriller",83,5.58824,102
+"The Battle of Algiers",1966,"NOT RATED","Drama/War",121,5.24419,86
+"The Good, the Bad and the Ugly",1966,"APPROVED","Western",161,6.08247,97
+"Cool Hand Luke",1967,"PG","Drama",126,5.67742,93
+"2001: A Space Odyssey",1968,"G","Adventure/Mystery/Sci-Fi",149,5.96591,88
+"Once Upon a Time in the West",1968,"PG-13","Romance/Western",175,5.78788,99
+"Butch Cassidy and the Sundance Kid",1969,"M","Biography/Crime/Drama",110,5.25581,86
+"A Clockwork Orange",1971,"X","Crime/Drama/Sci-Fi",136,5.75862,87
+"The Godfather",1972,"R","Crime/Drama",175,5.51923,104
+"The Sting",1973,"PG","Comedy/Crime/Drama",129,5.6413,92
+"Chinatown",1974,"R","Drama/Mystery/Thriller",130,5.61053,95
+"The Godfather: Part II",1974,"R","Crime/Drama",202,5.83529,85
+"Barry Lyndon",1975,"PG","Adventure/Drama/History",184,5.48837,86
+"Dog Day Afternoon",1975,"R","Crime/Drama",125,5.64368,87
+"Jaws",1975,"PG","Adventure/Drama/Thriller",124,5.36735,98
+"Monty Python and the Holy Grail",1975,"PG","Adventure/Comedy/Fantasy",91,5.96512,86
+"One Flew Over the Cuckoo's Nest",1975,"R","Drama",133,5.70968,93
+"Network",1976,"R","Drama/Romance",121,5.18085,94
+"Rocky",1976,"PG","Drama",120,5.61364,88
+"Taxi Driver",1976,"R","Crime/Drama",113,5.72941,85
+"The Message",1976,"PG","Adventure/Biography/Drama",177,5.49,100
+"Annie Hall",1977,"PG","Comedy/Romance",93,5.89474,95
+"Star Wars: Episode IV - A New Hope",1977,"PG","Action/Adventure/Fantasy",121,6.04167,96
+"The Deer Hunter",1978,"R","Drama/War",183,5.42105,95
+"Alien",1979,"R","Horror/Sci-Fi",117,5.20225,89
+"Apocalypse Now",1979,"R","Drama/War",153,5.84375,96
+"Life of Brian",1979,"R","Comedy",94,5.91398,93
+"Stalker",1979,"NOT RATED","Drama/Sci-Fi",163,5.71765,85
+"Raging Bull",1980,"R","Biography/Drama",129,5.70652,92
+"Star Wars: Episode V - The Empire Strikes Back",1980,"PG","Action/Adventure/Fantasy",124,6.07143,84
+"The Elephant Man",1980,"PG","Biography/Drama",124,5.36538,104
+"The Shining",1980,"R","Drama/Horror",146,5.1236,89
+"Das Boot",1981,"R","Adventure/Drama/Thriller",149,5.72165,97
+"Raiders of the Lost Ark",1981,"PG","Action/Adventure",115,5.45161,93
+"Blade Runner",1982,"R","Sci-Fi/Thriller",117,4.8587,92
+"Fanny and Alexander",1982,"R","Drama",188,5.84375,96
+"Gandhi",1982,"PG","Biography/Drama",191,4.87629,97
+"The Thing",1982,"R","Horror/Mystery/Sci-Fi",109,5.32653,98
+"Scarface",1983,"R","Crime/Drama",170,5.18987,79
+"Star Wars: Episode VI - Return of the Jedi",1983,"PG","Action/Adventure/Fantasy",131,5.69767,86
+"Amadeus",1984,"R","Biography/Drama/History",160,5.93902,82
+"Nausicaa of the Valley of the Wind",1984,"PG","Adventure/Animation/Fantasy",117,5.46512,86
+"Once Upon a Time in America",1984,"R","Crime/Drama",229,5.66667,87
+"The Terminator",1984,"R","Action/Sci-Fi",107,5.36264,91
+"This Is Spinal Tap",1984,"R","Comedy/Music",82,11,96
+"Back to the Future",1985,"PG","Adventure/Comedy/Sci-Fi",116,5.41111,90
+"Come and See",1985,"NOT RATED","Drama/War",140,5.73404,94
+"Ran",1985,"R","Action/Drama",162,5.08333,84
+"Aliens",1986,"R","Action/Adventure/Sci-Fi",137,5.55208,96
+"Castle in the Sky",1986,"PG","Adventure/Animation/Family",125,4.88235,102
+"Platoon",1986,"R","Drama/War",120,5.54839,93
+"Stand by Me",1986,"R","Adventure/Drama",89,5.47191,89
+"Full Metal Jacket",1987,"R","Drama/War",116,5.6129,93
+"The Princess Bride",1987,"PG","Adventure/Family/Fantasy",98,5.5,94
+"Cinema Paradiso",1988,"R","Drama/Romance",155,5.70103,97
+"Die Hard",1988,"R","Action/Thriller",131,5.22619,84
+"Grave of the Fireflies",1988,"UNRATED","Animation/Drama/War",89,4.77778,99
+"My Neighbor Totoro",1988,"G","Animation/Family/Fantasy",86,5.2069,87
+"Indiana Jones and the Last Crusade",1989,"PG-13","Action/Adventure/Fantasy",127,5.21951,82
+"Goodfellas",1990,"R","Biography/Crime/Drama",146,5.8046,87
+"Beauty and the Beast",1991,"G","Animation/Family/Fantasy",84,5.63736,91
+"Terminator 2: Judgment Day",1991,"R","Action/Sci-Fi",137,5.59574,94
+"The Silence of the Lambs",1991,"R","Crime/Drama/Thriller",118,5.80899,89
+"Reservoir Dogs",1992,"R","Crime/Drama/Thriller",99,5.6413,92
+"Unforgiven",1992,"R","Drama/Western",131,5.50633,79
+"Groundhog Day",1993,"PG","Comedy/Fantasy/Romance",101,5.70455,88
+"In the Name of the Father",1993,"R","Biography/Drama/History",133,5.49412,85
+"Jurassic Park",1993,"PG-13","Adventure/Sci-Fi/Thriller",127,5.31034,87
+"Schindler's List",1993,"R","Biography/Drama/History",195,5.62791,86
+"Forrest Gump",1994,"PG-13","Comedy/Drama",142,5.73267,101
+"Leon",1994,"R","Crime/Drama/Thriller",110,5.22222,99
+"Pulp Fiction",1994,"R","Crime/Drama",154,4.64368,87
+"The Lion King",1994,"G","Adventure/Animation/Drama",89,5.60241,83
+"The Shawshank Redemption",1994,"R","Crime/Drama",142,4.97917,96
+"Before Sunrise",1995,"R","Drama/Romance",105,5.58621,87
+"Braveheart",1995,"R","Biography/Drama/History",178,5.55319,94
+"Casino",1995,"R","Biography/Crime/Drama",178,5.75758,99
+"Heat",1995,"R","Action/Crime/Drama",170,5.16327,98
+"La Haine",1995,"NOT RATED","Crime/Drama",98,5.76596,94
+"Se7en",1995,"R","Crime/Drama/Mystery",127,5.77273,88
+"The Usual Suspects",1995,"R","Crime/Drama/Mystery",106,5.54737,95
+"Toy Story",1995,"G","Adventure/Animation/Comedy",81,5.63441,93
+"Twelve Monkeys",1995,"R","Mystery/Sci-Fi/Thriller",129,5.28889,90
+"Fargo",1996,"R","Crime/Drama/Thriller",98,5.30851,94
+"Trainspotting",1996,"R","Drama",94,5.75556,90
+"Children of Heaven",1997,"PG","Drama/Family",89,5.8046,87
+"Good Will Hunting",1997,"R","Drama",126,5.24742,97
+"L.A. Confidential",1997,"R","Crime/Drama/Mystery",138,5.64948,97
+"Life Is Beautiful",1997,"PG-13","Comedy/Drama/War",116,5.34444,90
+"Princess Mononoke",1997,"PG-13","Adventure/Animation/Fantasy",134,5.89286,84
+"American History X",1998,"R","Crime/Drama",119,5.41748,103
+"Lock, Stock and Two Smoking Barrels",1998,"R","Comedy/Crime",107,5.51807,83
+"Saving Private Ryan",1998,"R","Action/Drama/War",169,5.26437,87
+"The Big Lebowski",1998,"R","Comedy/Crime",117,5.27957,93
+"The Truman Show",1998,"PG","Comedy/Drama/Sci-Fi",103,5.88235,85
+"American Beauty",1999,"R","Drama/Romance",122,5.84444,90
+"Fight Club",1999,"R","Drama",139,5.71579,95
+"The Green Mile",1999,"R","Crime/Drama/Fantasy",189,5.35556,90
+"The Matrix",1999,"R","Action/Sci-Fi",136,5.25806,93
+"The Sixth Sense",1999,"PG-13","Drama/Mystery/Thriller",107,5.03571,84
+"Amores Perros",2000,"R","Drama/Thriller",154,5.72,100
+"Gladiator",2000,"R","Action/Adventure/Drama",155,5.04348,92
+"Memento",2000,"R","Mystery/Thriller",113,5.25,96
+"Requiem for a Dream",2000,"R","Drama",102,5.38384,99
+"Snatch",2000,"R","Comedy/Crime",102,5.63542,96
+"A Beautiful Mind",2001,"PG-13","Biography/Drama",135,5.2766,94
+"Amelie",2001,"R","Comedy/Romance",122,5.47917,96
+"Donnie Darko",2001,"R","Drama/Sci-Fi/Thriller",113,5.86598,97
+"Lagaan: Once Upon a Time in India",2001,"PG","Adventure/Drama/Music/Musical",224,5.22222,90
+"Monsters, Inc.",2001,"G","Adventure/Animation/Comedy",92,5.3125,80
+"Spirited Away",2001,"PG","Adventure/Animation/Family",125,5.33333,93
+"The Lord of the Rings: The Fellowship of the Ring",2001,"PG-13","Action/Adventure/Drama",178,4.94565,92
+"Catch Me If You Can",2002,"PG-13","Biography/Crime/Drama",141,5.29545,88
+"City of God",2002,"R","Crime/Drama",130,5.71084,83
+"Infernal Affairs",2002,"R","Crime/Drama/Mystery",101,5.37931,87
+"The Lord of the Rings: The Two Towers",2002,"PG-13","Action/Adventure/Drama",179,5.61053,95
+"The Pianist",2002,"R","Biography/Drama/War",150,5.08889,90
+"Finding Nemo",2003,"G","Adventure/Animation/Comedy",100,5.17778,90
+"Kill Bill: Vol. 1",2003,"R","Action/Crime/Thriller",111,5.29787,94
+"Memories of Murder",2003,"UNRATED","Crime/Drama/Mystery",132,5.77273,88
+"Oldboy",2003,"R","Drama/Mystery/Thriller",120,5.68085,94
+"Pirates of the Caribbean: The Curse of the Black Pearl",2003,"PG-13","Action/Adventure/Fantasy",143,5.74766,107
+"The Lord of the Rings: The Return of the King",2003,"PG-13","Action/Adventure/Drama",201,4.9011,91
+"Downfall",2004,"R","Biography/Drama/History",156,5.44681,94
+"Eternal Sunshine of the Spotless Mind",2004,"R","Drama/Fantasy/Romance",108,5.58163,98
+"Hotel Rwanda",2004,"PG-13","Drama/History/War",121,5.42222,90
+"Howl's Moving Castle",2004,"PG","Adventure/Animation/Family",119,5.18557,97
+"Million Dollar Baby",2004,"PG-13","Drama",132,5.64835,91
+"Batman Begins",2005,"PG-13","Action/Adventure",140,4.89773,88
+"Sin City",2005,"R","Crime/Thriller",124,5.52688,93
+"V for Vendetta",2005,"R","Action/Drama/Thriller",132,5.83158,95
+"Pan's Labyrinth",2006,"R","Drama/Fantasy/War",118,4.77108,83
+"The Departed",2006,"R","Crime/Drama/Thriller",151,4.88,100
+"The Lives of Others",2006,"R","Drama/Thriller",137,5.87234,94
+"The Prestige",2006,"PG-13","Drama/Mystery/Sci-Fi",130,5.74419,86
+"Into the Wild",2007,"R","Adventure/Biography/Drama",148,5.61798,89
+"No Country for Old Men",2007,"R","Crime/Drama/Thriller",122,5.30769,78
+"The Bourne Ultimatum",2007,"PG-13","Action/Mystery/Thriller",115,5.10989,91
+"There Will Be Blood",2007,"R","Drama",158,5.38889,90
+"Gran Torino",2008,"R","Drama",116,5.80952,105
+"Ip Man",2008,"R","Action/Biography/Drama",106,5.49425,87
+"The Dark Knight",2008,"PG-13","Action/Crime/Drama",152,5.43299,97
+"WALL-E",2008,"G","Adventure/Animation/Family",98,5.21978,91
+"3 Idiots",2009,"PG-13","Comedy/Drama",170,5.12088,91
+"Hachi: A Dog's Tale",2009,"G","Drama/Family",93,5.62025,79
+"Inglourious Basterds",2009,"R","Adventure/Drama/War",153,5.28261,92
+"Mary and Max",2009,"NOT RATED","Animation/Comedy/Drama",92,5.73864,88
+"The Secret in Their Eyes",2009,"R","Drama/Mystery/Thriller",129,5.33333,96
+"Up",2009,"PG","Adventure/Animation/Comedy",96,5.26882,93
+"How to Train Your Dragon",2010,"PG","Adventure/Animation/Family",98,5.23256,86
+"Incendies",2010,"R","Drama/Mystery/War",139,5.57447,94
+"Inception",2010,"PG-13","Action/Adventure/Sci-Fi",148,5.34884,86
+"Shutter Island",2010,"R","Mystery/Thriller",138,5.04706,85
+"The King's Speech",2010,"R","Biography/Drama/History",118,5.2375,80
+"Toy Story 3",2010,"G","Adventure/Animation/Comedy",103,5.48421,95
+"A Separation",2011,"PG-13","Drama/Mystery",123,5.87755,98
+"Harry Potter and the Deathly Hallows: Part 2",2011,"PG-13","Adventure/Drama/Fantasy",130,5.1573,89
+"The Help",2011,"PG-13","Drama",146,6.53846,91
+"Untouchable",2011,"N/A","Comedy/Drama",14,5.38043,92
+"Warrior",2011,"PG-13","Drama",140,5.18391,87
+"Django Unchained",2012,"R","Drama/Western",165,5.37,100
+"Gangs of Wasseypur",2012,"N/A","Action/Crime/Drama",320,5.60227,88
+"The Avengers",2012,"PG-13","Action/Sci-Fi/Thriller",143,4.79787,94
+"The Dark Knight Rises",2012,"PG-13","Action/Thriller",164,5.85567,97
+"The Hunt",2012,"R","Drama",115,5.31646,79
+"12 Years a Slave",2013,"R","Biography/Drama/History",134,5.38542,96
+"Prisoners",2013,"R","Crime/Drama/Mystery",153,5.24419,86
+"Rush",2013,"R","Action/Biography/Drama",123,5.33673,98
+"Sharknado",2013,"TV-14","Horror",86,5.04938,81
+"The Wolf of Wall Street",2013,"R","Biography/Comedy/Crime",180,5.67033,91
+"Gone Girl",2014,"R","Crime/Drama/Mystery",149,5.6699,103
+"Guardians of the Galaxy",2014,"PG-13","Action/Adventure/Sci-Fi",121,5.6,100
+"Interstellar",2014,"PG-13","Adventure/Drama/Sci-Fi",169,5.56667,90
+"Song of the Sea",2014,"PG","Adventure/Animation/Family",93,5.6,85
+"The Grand Budapest Hotel",2014,"R","Adventure/Comedy/Crime",99,6.32609,92
+"The Imitation Game",2014,"PG-13","Biography/Drama/Thriller",114,5.12,100
+"Whiplash",2014,"R","Drama",107,5.19792,96
+"Wild Tales",2014,"R","Comedy/Drama/Thriller",122,5.42391,92
+"Inside Out",2015,"PG","Adventure/Animation/Comedy",95,5.25275,91
+"Mad Max: Fury Road",2015,"R","Action/Adventure/Sci-Fi",120,5.42857,84
+"Room",2015,"R","Drama",118,5.52688,93
+"Spotlight",2015,"R","Biography/Crime/Drama",128,5.46914,81
+"Star Wars: The Force Awakens",2015,"PG-13","Action/Adventure/Fantasy",138,6.39785,93
+"The Martian",2015,"PG-13","Adventure/Drama/Sci-Fi",144,5.13402,97
+"The Revenant",2015,"R","Adventure/Drama/Thriller",156,5.20833,96
+"Deadpool",2016,"R","Action/Adventure/Comedy",108,6,92
+"Zootopia",2016,"PG","Action/Adventure/Animation",108,5.22826,92
+
+--------------------------------------------
+
+The Third Longest 'Film-Noir' Movie is: 
+"Double Indemnity",1944,"PASSED","Crime/Drama/Film-Noir",107,6.2268,97
+
+------------------------------------------
+
+The 10th highest rated Science-Fiction film in the database is:
+"Aliens",1986,"R","Action/Adventure/Sci-Fi",137,5.55208,96
+
+------------------------------------------
+
+The highest rated movie within the MovieDatabase is: 
+"This Is Spinal Tap",1984,"R","Comedy/Music",82,11,96
+
+------------------------------------------
+
+The Movie with the Longest Title within the MovieDatabase is: 
+"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",1964,"PG","Comedy",95,5.13095,84
+
+------------------------------------------
+
+The (chromatically) 101st User Rating for a film is: 
+Note... formatted as [dd/mm/yyyyTHH:MM:SSZ]
+01/02/2001T09:33:18Z,"Sir Everard Garland, K.C.B.","The Dark Knight Rises",9
+
+------------------------------------------

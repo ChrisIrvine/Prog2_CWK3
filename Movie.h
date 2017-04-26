@@ -1,15 +1,17 @@
 /**
- * File:        movie.h
+ * File:        Movie.h
  *
  * Author:      ruw12gbu, 100036248
  *
- * Description: Header file for movie.cpp, containing the methods and variables
- *              used in the movie.cpp file.
+ * Description: Header file for Movie.cpp. Details the Genre struct and the
+ *              inlined Movie methods.
  *
- * Version:     v1.0 - 29/03/2017 - created
- *              v2.0 - 30/03/2017 - edited to be stack compatible
- *              v2.1 - 31/03/2017 - implemented input overloading
- *              v2.2 - 31/03/2017 - adapted output overloader for efficiency
+ * Version:     v1.0 - created.
+ *              v2.0 - edited to be stack compatible
+ *              v2.1 - implemented input overloading
+ *              v2.2 - adapted output overload for efficiency
+ *              v3.0 - reworked to be Struct compatible (Genre)
+ *              v3.1 - polished and commented
  */
 
 #ifndef PROG2_CWK3_MOVIE_H
@@ -45,6 +47,15 @@ namespace movie {
         bool western : 1;
     };
 
+    /**
+     * Class:       Movie
+     *
+     * Description: Contains the methods and variables that compose a Movie
+     *              Object. Including Accessor and Mutator methods for each
+     *              private class variable, a default constructor, copy
+     *              constructor, custom constructor and a destructor. Also
+     *              includes a Genre Struct and operator overloading.
+     */
     class Movie {
     public:
         //Inline Accessor and Mutator methods for the Movie class
@@ -88,8 +99,7 @@ namespace movie {
          *
          * Returns:     A blank movie object
          */
-        Movie() {
-        }
+        Movie() { }
 
         /**
          * Procedure:   Movie (customisable)
@@ -163,29 +173,75 @@ namespace movie {
         int ratingCount;
     };
 
+    /**
+     * Procedure:   operator<<(std::ostream& ostream, Movie &movie)
+     *
+     * Description: Overload the output operator to print the scraped movie
+     *              object exactly as it was in the "movies.txt" file. Achieves
+     *              this by creating an output stream and fetching each class
+     *              variable with formatting either side of the fetching.
+     *
+     * Returns:     An output stream containing a representation of the
+     *              movie object.
+     *
+     * Parameters:
+     * @param ostream - the stream to direct the output to
+     * @param movie - movie object containing the data to output
+     * @return
+     */
     std::ostream& operator<<(std::ostream& ostream, Movie &movie);
 
+    /**
+     * Procedure:   operator<<(std::ostream& ostream, Genre& genre)
+     *
+     * Description: Overload the Genre output operator to return a string
+     *              representation of the movie object's Genre. Achieves this
+     *              by checking which of the Struct is true, if true the
+     *              correct string is directed to the output stream.
+     *
+     * Returns:     An output stream containing the string representation
+     *
+     * Parameters:
+     * @param ostream - the stream to direct the output to
+     * @param genre - Struct to examine
+     * @return
+     */
     std::ostream& operator<<(std::ostream& ostream, Genre& genre);
 
-    std::istream& operator>>(std::istream& istream, Movie &movie);
-
-    std::istream& operator>>(std::istream& istream, Genre& genre);
-
     /**
-     * Procedure:   &operator>>
+     * Procedure:   operator>>(std::istream& istream, Movie &movie)
      *
      * Description: Overload the input operator to take a line of data from a
      *              text file and break it down into the component parts; then
      *              assign the data to the class variables of the movie object.
+     *              Using .get() to remove any unwanted characters.
      *
-     * Returns:     A new movie object with data scraped from a file.
+     * Returns:     An input stream containing new movie object with data
+     *              scraped from a file.
      *
      * Parameters:
      * @param istream - input stream
      * @param movie - movie object to create
      * @return - new movie object with data scraped from a file.
      */
+    std::istream& operator>>(std::istream& istream, Movie &movie);
 
+    /**
+     * Procedure:   operator>>(std::istream& istream, Genre &genre)
+     *
+     * Description: Overload the input operator for Genre, that takes a string
+     *              from the "movies.txt" file and discerns if the string
+     *              matches any of the allowed Structs.
+     *
+     * Returns:     An input stream containing the correct Genres for that
+     *              movie object.
+     *
+     * Parameters:
+     * @param istream - input stream
+     * @param genre - genre object for the new movie object
+     * @return - associated genres to the new movie object
+     */
+    std::istream& operator>>(std::istream& istream, Genre& genre);
 
     /**
      * Procedure:   operator<

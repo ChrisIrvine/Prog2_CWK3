@@ -3,23 +3,18 @@
  *
  * Author:      ruw12gbu, 100036248
  *
- * Description: Source code of the movie class declared in Movie.h create movie
- *              objects that are generated from the movies.txt file; containing
- *              details such as the title, year, rating-certificate, genre and
- *              runtime (in minutes). movies.txt is passed in through main.cpp
- *              before it is broken down and separated into individual movie
- *              objects. At this stage there is no file input, I am just
- *              testing the methods before I get to that stage.
+ * Description: Source Code file for Movie.h that hosts the code responsible
+ *              for the copy and customisable constructor methods; as well as
+ *              the operator overloading for the class and struct operators.
  *
- * Version:     v1.0 - 29/03/2017 - created.
- *              v2.0 - 30/03/2017 - edited to be stack compatible
- *              v2.1 - 31/03/2017 - implemented input overloading
- *              v2.2 - 31/03/2017 - adapted output overload for efficiency
+ * Version:     v1.0 - created.
+ *              v2.0 - edited to be stack compatible
+ *              v2.1 - implemented input overloading
+ *              v2.2 - adapted output overload for efficiency
+ *              v3.0 - reworked to be Struct compatible (Genre)
+ *              v3.1 - polished and commented
  */
 #include "Movie.h"
-#include <iostream>
-#include <string>
-#include <sstream>
 
 namespace movie {
     //Initialise the customisable constructor method
@@ -52,6 +47,7 @@ namespace movie {
     //Destructor, doesn't need to do anything as stack not heap
     Movie::~Movie() {   }
 
+    //Overload the output operator for the movie object
     std::ostream& operator<<(std::ostream &ostream, Movie &movie) {
         ostream << "\"" << movie.title << "\",";
         ostream << movie.year << "," ;
@@ -64,6 +60,7 @@ namespace movie {
         return ostream;
     }
 
+    //Overload the input operator for the movie object
     std::istream& operator>>(std::istream &istream, Movie &movie) {
         istream.get(); //get rid of the quote mark
 
@@ -76,7 +73,8 @@ namespace movie {
         istream >> movie.year;
         istream.get(); //comma
 
-        istream >> movie.certificate;
+        istream.get(); //first quote mark
+        std::getline(istream, movie.certificate, '"');
         istream.get(); //comma
 
         istream >> movie.genre;
@@ -85,17 +83,20 @@ namespace movie {
         istream >> movie.runtime;
         istream.get(); //comma
 
-        //As the last two components of the line are always 0, we can ignore
-        for (size_t i = 0; i < 3; ++i) {
+        //Skip past the next 3 characters, allowing the input to continue
+        for (size_t i = 0; i < 4; ++i) {
             istream.get();
         }
 
-        movie.rating = 0;
+        //At this stage, the rating and ratingCount are not yet fed external
+        //Data.
+        movie.rating = 0.0;
         movie.ratingCount = 0;
 
         return istream;
     }
 
+    //Overload the output operator for the Genre struct
     std::ostream& operator<<(std::ostream& ostream, Genre& genre) {
         std::stringstream output;
 
@@ -125,9 +126,11 @@ namespace movie {
         std::string outString;
         output >> outString;
 
+        ostream << outString;
         return ostream;
     }
 
+    //Overload the input operator for the Genre Struct
     std::istream& operator>>(std::istream& istream, Genre& genre) {
         genre = {};
         istream.get();
